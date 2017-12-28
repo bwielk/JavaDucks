@@ -11,7 +11,7 @@ public class DuckTest{
 	
 	@Before
 	public void before(){
-		duck1 = new Duck();
+		duck1 = new MallardDuck();
 	}
 
 	@Test

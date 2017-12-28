@@ -2,8 +2,8 @@ package ducks;
 
 public class Duck {
 	
-	private FlyBehaviour flyBehaviour;
-	private QuackBehaviour quackBehaviour;
+	protected FlyBehaviour flyBehaviour;
+	protected QuackBehaviour quackBehaviour;
 	
 	public String performFlying(){
 		return flyBehaviour.fly();
