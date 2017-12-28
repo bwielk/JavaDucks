@@ -12,5 +12,12 @@ public class Duck {
 	public String performQuacking(){
 		return quackBehaviour.quack();
 	}
-
+	
+	public void setFlyingBehaviour(FlyBehaviour fb){
+		this.flyBehaviour = fb;
+	}
+	
+	public void setQuackBehaviour(QuackBehaviour qb){
+		this.quackBehaviour = qb;
+	}
 }

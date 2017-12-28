@@ -23,5 +23,17 @@ public class RocketDuckTest {
 	public void rocketDuckCannotFlyWithWings(){
 		assertEquals("Cannot fly", rocket1.performFlying());
 	}
+	
+	@Test
+	public void rocketDuckLiftsOff(){
+		rocket1.setFlyingBehaviour(new RocketFlying());
+		assertEquals("Lift off", rocket1.performFlying());
+	}
+	
+	@Test
+	public void rocketDuckCanSqueak(){
+		rocket1.setQuackBehaviour(new Squeak());
+		assertEquals("I squeak like a rubber duck", rocket1.performQuacking());
+	}
 
 }
