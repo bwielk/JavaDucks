@@ -5,9 +5,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class DuckTest{
+public class MallardDuckTest{
 	
-	private Duck duck1;
+	private MallardDuck duck1;
 	
 	@Before
 	public void before(){
